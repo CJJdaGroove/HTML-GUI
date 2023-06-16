@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #000000;
+    --branco-principal: #ffffff;
     --cinza-secundario: #D9D9D9;
     --botao-azul: #167bf7;
     --cor-de-fundo: #dddddd;
@@ -13,4 +13,22 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+
+.principal {
+    background-image: url(img/O\ Rei\ do\ Boxe.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
